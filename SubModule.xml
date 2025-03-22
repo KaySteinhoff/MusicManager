@@ -1,0 +1,25 @@
+<Module>
+	<Name value="Music Manager"/>
+	<Id value="MusicManager"/>
+	<Version value="v0.0.1"/>
+	<SinglePlayerModule value="true"/>
+	<MultiPlayerModule value="false"/>
+	<DependendModules>
+		<DependendModule Id="Native"/>
+		<DependendModule Id="SandBoxCore"/>
+		<DependendModule Id="Sandbox"/>
+		<DependendModule Id="CustomBattle"/>
+		<DependendModule Id="StoryMode"/>
+	</DependendModules>
+	<SubModules>
+		<SubModule>
+			<Name value="MusicManager"/>
+			<DLLName value="MusicManager.dll"/>
+			<SubModuleClassType value="MusicManager.MusicManager"/>
+			<Tags>
+				<Tag key="DedicatedServerType" value="none"/>
+				<Tag key="IsNoRenderModeElement" value="false"/>
+			</Tags>
+		</SubModule>
+	</SubModules>
+</Module>
